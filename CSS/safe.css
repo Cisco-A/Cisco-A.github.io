@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: relative;
+  margin-bottom: 150px;
+}
+
+/* Buttons */
+
+.head-btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border: none;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 2px 13px #666666;
+  -moz-box-shadow: 0px 2px 13px #666666;
+  box-shadow: 0px 2px 13px #666666;
+  color: hsl(192, 100%, 9%);
+  width: 20%;
+  font-size: 21px;
+  font-weight: 700px;
+  font-family: "Open Sans", sans-serif;
+  padding: 13px;
+  background: #fffdfd;
+  text-decoration: none;
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+}
+
+/* .head-btn:hover {
+  background: hsl(193, 100%, 96%);
+  text-decoration: none;
+} */
+
+.start1 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  border: none;
+  color: #ffffff;
+  width: 25%;
+  font-size: 21px;
+  font-weight: 700px;
+  font-family: "Open Sans", sans-serif;
+  padding: 17px;
+  background: hsl(322, 100%, 66%);
+  text-decoration: none;
+  cursor: pointer;
+  margin: 50px auto;
+}
+
+.start1:hover {
+  background: hsl(322, 100%, 76%);
+  text-decoration: none;
+}
+
+/* Containers */
+
+.top-container {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+  padding-bottom: 40px;
+  overflow: auto;
+  margin-bottom: 150px;
+}
+
+.intro {
+  margin: 150px 30px;
+  text-align: left;
+}
+
+.intro-header {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  width: 40%;
+}
+
+
+.middle-container{
+  width: 100%;
+  height: 100%;
+}
+
+.grow-area {
+  width: 85%;
+  height: 40vh;
+  /* position: inherit; */
+  margin: auto;
+  /* border: 2px; */
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 2px 12px hsl(208, 11%, 55%);
+  -moz-box-shadow: 1px 2px 12px hsl(208, 11%, 55%);
+  box-shadow: 1px 2px 12px hsl(208, 11%, 55%);
+  text-decoration: none;
+  padding: 50px 50px;
+}
+
+.left-text{
+  text-align: left;
+  width: 50%;
+  position: relative;
+  top: 50px;
+}
+
+.conversations-area{
+  width: 85%;
+  height: 40vh;
+  position: inherit;
+  margin: 300px auto;
+  /* border: 2px; */
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 2px 12px hsl(208, 11%, 55%);
+  -moz-box-shadow: 1px 2px 12px hsl(208, 11%, 55%);
+  box-shadow: 1px 2px 12px hsl(208, 11%, 55%);
+  text-decoration: none;
+  padding: 50px 50px;
+}
+
+.right-text{
+  text-align: left;
+  width: 50%;
+  margin-left: 70px;
+}
+
+/* Images */
+
+.logo-img {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+
+.mockup-img {
+  width: 50%;
+  float: right;
+}
+
+.grow-img {
+  max-width: 60%;
+  max-height: 100%;
+  float: right;
+
+}
+
+.conversation-img{
+  max-width: 60%;
+  max-height: 100%;
+  float: left;
+}
